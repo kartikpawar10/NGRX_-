@@ -1,0 +1,8 @@
+<div>{{channelName}}</div>
+<br />
+<div [formGroup]="form">
+    <input type="text" placeholder="Enter the value" formControlName="value">
+    <button (click)="onAdd()">Add to counter</button>
+    <hr>
+</div>
+<p>Counter Value: {{ counter }}</p>
